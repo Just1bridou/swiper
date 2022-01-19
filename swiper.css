@@ -1,0 +1,85 @@
+.swiper-container {
+    position: relative;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+}
+
+.swiper-container .left {
+    left: 20px;
+}
+
+.swiper-container .right {
+    right: 20px;
+}
+
+.swiper-container .right, .swiper-container .left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    z-index: 100;    
+    border: none;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: #ecececc2;
+    transition: 0.1s all ease-in-out;
+}
+
+.swiper-container .right:hover, .swiper-container .left:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.swiper-container .right i, .swiper-container .left i {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center; 
+}
+
+.swiper-slide {
+    position: absolute;
+    transition: 0.2s all ease;
+    height: 400px;
+    min-width: 400px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swipe-none {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.swiper-backgroundModale {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.swiper-imgPreview {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.swiper-container img {
+    object-fit: cover;
+}
