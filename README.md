@@ -8,13 +8,13 @@
 
 #### Include this css files in your index.html
 ```html
-<link src="test.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">		
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+<link href="https://github.com/Just1bridou/swiper/blob/main/swiper.css" rel="stylesheet">
 ```
 
 #### Include this javascript file in your index.html
 ```html
-<script src="test.js">
+<script src="https://github.com/Just1bridou/swiper/blob/main/swiper.js">
 ```
 
 #### Exemple of swiper code
